@@ -1,0 +1,52 @@
+
+
+.containerInfoAlbum {
+    width: 180px;
+    height: 234px;
+    /* background-color: antiquewhite; */
+    
+
+}
+
+.containerPortada {
+    width: 180px;
+    height: 195px;
+    /* background-color: aqua; */
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.containerNombre {
+    width: 180px;
+    height: 21px;
+    /* background-color: blueviolet; */
+}
+
+.containerNombre h5 {
+    margin: 0;
+}
+.containerInfo {
+    width: 180px;
+    height: 21px;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.containerInfo p {
+    margin: 0;
+}
+
+.containerPortada img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.containerAlbum {
+    width: 1112px;
+    height: 255px;
+    /* background-color: red; */
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
