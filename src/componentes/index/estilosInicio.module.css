@@ -1,0 +1,145 @@
+
+
+.container {
+    width: 1200px;
+    height: 1505px;
+    /* background-color: rgb(143, 101, 101); */
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    
+    
+}
+
+
+.containerSecundario {
+    width: 1112px;
+    height: 1120px;
+    
+}
+
+.bloques {
+    width: 1112px;
+    height: 280px;
+    /* background-color: rgb(8, 95, 95); */
+    
+}
+
+/* ------------------------------------------------------- */
+
+.containerListen {
+    width: 1112px;
+    height: 65px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 20px;
+    
+    
+}
+.conteinerListenAgain {
+    width: 203px;
+    height: 65px;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+
+}
+.containerPerfil  {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerPerfil img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.tituloSubtitulo {
+    width: 143px;
+    height: 50px;
+    /* background-color: blanchedalmond; */
+    margin-left: 10px;
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.subtitulo {
+    width: 150px;
+    height: 24px;
+    /* background-color: black; */
+    display: flex;
+    
+    
+   
+}
+
+.subtitulo h6 {
+    font-size: 12px;
+    margin: 0;
+    
+}
+
+.titulo {
+    width: 250px;
+    height: 30px;
+    /* background-color: aquamarine; */
+    
+}
+
+.titulo h4{
+    font-size: 18px;
+    margin: 0;
+    
+}
+
+
+.containerBotones {
+    width: 88px;
+    height: 48px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.containerFlechaDerecha {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.containerFlechaIzquierda {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.containerFlechaDerecha a {
+    color: #FFFFFF;
+}
+.containerFlechaIzquierda a {
+    color: #FFFFFF;
+}
+
+.containerFlechaIzquierda a:hover {
+    color: gray;
+}
+.containerFlechaDerecha a:hover {
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
