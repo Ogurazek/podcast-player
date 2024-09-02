@@ -1,0 +1,80 @@
+.containerForm {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+
+
+}
+
+.formPlayList {
+    width: 500px;
+    height: 450px;
+
+}
+
+.formLabelInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputPlay {
+    width: 416px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: #282828;
+}
+
+.botonContainer {
+    width: 422px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.botonPlay {
+    width: 150px;
+    border-radius: 18px;
+}
+
+
+/* ---------------------------------------------------- */
+/* Esto es parte de mostrar la foto, título y descrip en grande */
+
+.itemContainer {
+    width: 200px;
+    height: 250px;
+    
+   
+    
+}
+
+.itemImage {
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+.itemImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.itemDetails h4, p {
+    margin: 0;
+}
+.itemDetails p {
+    color: #E8EAF6;
+}
+
+
+
+
+
