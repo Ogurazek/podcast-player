@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     top: 0;
+    margin-left: 230px; /* modificar más adelante */
     
     
 }
@@ -22,7 +23,6 @@
 .bloques {
     width: 1112px;
     height: 280px;
-    /* background-color: rgb(8, 95, 95); */
     
 }
 
@@ -133,6 +133,144 @@
 .containerFlechaDerecha a:hover {
     color: gray;
 }
+
+.containerSideBar {
+    width: 220px;
+    margin-top: 80px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    border-right: 2px solid #474747; /* Borde derecho gris */
+}
+
+.caja {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerHome {
+    width: 230px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menuAcordion {
+    width: 200px;
+    height: 132px;
+    border-bottom: 2px solid #474747;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Esto es parte del demo */
+.botonAcordion { 
+    width: 200px;
+    height: 40px;
+    display: flex;
+    gap: 14px;
+    
+}
+
+.botonAcordion p {
+    margin: 0;
+}
+
+.botonAcordion a {
+    color: #FFFFFF;
+}
+
+.botonAcordion a:hover {
+    color: #474747;
+}
+
+.containerBoton {
+    width: 230px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.boton {
+    width: 200px;
+    border-radius: 25px;
+}
+
+.containerPlay {
+    width: 215px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    
+}
+
+.containerPlaylist {
+    width: 186px;
+    height: 275px;
+    
+
+}
+
+.containerCadaPlayList {
+    width: 186px;
+    height: 57px;
+    
+}
+
+.containerImagenList {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.containerImagenList img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos de la barra lateral (scrollbar) */
+
+body, .containerPlay { /* Aplica a body y a cualquier contenedor con overflow */
+    --sb-track-color: #232E33;
+    --sb-thumb-color: #5e6360;
+    --sb-size: 5px;
+  }
+  
+  body::-webkit-scrollbar,
+  .containerPlay::-webkit-scrollbar { /* Aplica a scrollbars en ambos casos */
+    width: var(--sb-size);
+  }
+  
+  body::-webkit-scrollbar-track,
+  .containerPlay::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 3px;
+  }
+  
+  body::-webkit-scrollbar-thumb,
+  .containerPlay::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 3px;
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body,
+    .containerPlay {
+      scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
+  }
+
+
+
 
 
 

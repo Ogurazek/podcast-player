@@ -4,27 +4,27 @@ const ALBUMS = [
     {
       nombre: 'Playlist Name',
       info: 'Artist Name',
-      imagen: 'https://s3-alpha-sig.figma.com/img/9db4/4cf6/43e62ad21860d99cd29386c472e3d49a?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hf~~dscDhShrS2dupWU1iGhmM9dptEd-3C1qOeBwxXqAfmMdmmArIjmEpklXyXdHuWmRutReHYvOwsb6ZKESbtG3o-PNTH39Zoyy0RZ~KljPOhKY9XrFzG8h9-5dsRbZhzgvhnhBb2h1i-jWo~JoK2trVo~Kkeur3KGwH-yZDzzoTSy0WvBBNrabyUS7XtitFaPAAFx2O2zHQeutmTN576UeffyTCcSe2mJbfYz~TRE~WyCrkEsfdYsn0EkExV~fTRmFPps-15iIwaUKRHqeDcBVonZH3XG8aAibmiqEew~QYToc1fQHbpTVDQaz7nerNk7QS~xj37kRI1FajBvoqg__',
+      imagen: 'https://s3-alpha-sig.figma.com/img/9db4/4cf6/43e62ad21860d99cd29386c472e3d49a?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T0g3zY4jQkaJa95OWfXw5TMZTFFEL6T2lrggAg0tpOKk1oqLUD~Mu9K056bAeIGtRe0k5LWRH2j~IsDO~WI4J9FdUa38lW2G9JgoXMa7oSMvpudMnY-wosuyVT56KmyQtn4twMNwIkWsi7Y-YutVEp93PdEYhk3626Tkz4TSDZQabYptQbuaTglV8XsxGyqaZcKy7eY2frnlStBkqvnveS4Y2Yomzl1irEaB8pTvIAdjXn4I8tDNM0DUHHbgA7bCxa6KqKwG7-NHehOGYeAukpUzqsQrugfUZEIjzKMogjNHhwoELLgawHk2efEQeA20DuzzMR0jrG~hrX9ZE3xmPw__',
     },
     {
       nombre: 'Song Title',
       info: 'Channel/Artist',
-      imagen: 'https://s3-alpha-sig.figma.com/img/e5a7/183b/697b5c47c2737fb8cc17d83f5e4a1882?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hPNdatFVqaq18ujGUz~MVzPb57RoVO4d3c0nCKWVlo6YAEE~CBXbuePrwR18gq8NoiFpRS7RzJYF9jBsiVF2QHnG-FZ8j4nWljIw2hp8MlgZtP7MCUEbfBi~yaAcO~QaZ1tldFerDC0YMiiNjC8Lt8EdaARsJ3QHPukNRESiZ9oolDXBEKiMD-z7VUyNQ7dDZ1MAAF~p1tJGRCD3DUSAtNIx8Vq7ixDSJzfbi6RM7URkINj7vUC-tB~fNxUevl1z9N42AoPz87aEGiiwqPHsgtYjOKFTzghtbZ9KcVhJ4xpil8Pg8WZq-eZFQ-T3FOuUPVlkCLJiDYz79gsB66WMgA__',
+      imagen: 'https://s3-alpha-sig.figma.com/img/e5a7/183b/697b5c47c2737fb8cc17d83f5e4a1882?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EWKxXpzx~5mnBE-3WtIO-UT53HtmCRcyS7vmf7xHVzDDsOwZpzAePTOUT-58Ig23BRMiFgzmC4epOWQOT35Bzi0z8kCKOIWmndEmQ1j~l-Vhpyw~XTFDGgsjzqYxPzKoeLSg2lXH1rBx~ZX7xyaSbLak4LdgfdDNsSHJbmGaPQA3GKyHy-bpw0KOELcXimC8pDDosVyCEcs2e1hLDE~fofuZ~61zsDUIj~cwThHVpPJBuYiceMzCtLWkgkUO0UvHgIvtQBtGd3r0BDSvN9nb0aqVdMys~ldMFuYlJBpU34AQAww8L268WwmOdFAh6xl5qiabd90LfDnleFrvgZcw7g__',
     },
     {
       nombre: 'Playlist Name',
       info: 'Artist Name',
-      imagen: 'https://s3-alpha-sig.figma.com/img/cc14/ec68/69b57d487d0805bb83aa02d8eac8fd8e?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ofWgkf798wkm6H4cfXHW-IiJYIyOTMN0QuOtyqsuc-xuoFcWGLDAkW49IzFJkrG0o3yPPz8FN0~a21wxHF3iqtXH0LagWYd7bpQaZYEnUrXDIkDC8VKnJonOWJNuPyOGdjp~UoceCgWkVwzfM~HJ1I7QZn95yQQ9n8ksNy1teU~0rd6pBf7MX0PFwkPuHLwBmTujymT~htxmcxdrC0f5HvV0KE3ZEYsY5vMhVIQzG9T-Zoa-xg~nN4NJByjBfls49nCpYBxRIaZva5YmCluFpFV-nIm8KY-dO7B1dXfWsAwJstZRtR~wvLtU5yNpnE-j8BOD5iAg7zKkspDclqlEFg__',
+      imagen: 'https://s3-alpha-sig.figma.com/img/cc14/ec68/69b57d487d0805bb83aa02d8eac8fd8e?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pPWhL9EA~TeX3wbUgEANDwxdlDtjWzz2AWY3bJ8d8q6-6rxr9omIU1n5zxwsejz5FsBZSlUi8HtT0RJK2F4dvnn5r~16boUmhAaJgoPEgND~7oEBgvqQdHROiiAyofojSGVnN11liZ30HhNIs9fVxy-5HGGQd4zAfHfz~LPUii41Js9rQDEMvZvfHoaflY3WewF6AAPOuIFHxXM5O5arMy5fmiWjbMi9-s5a-fHT5q6ddJsj56qNSM0H3CJqIK1FoFwpWUykQD1b5gbIWDEuTL7xTZjQGJNIdcBr2ndV~R~xiOGwtkY6M4wWcYMJWswf3SHVG-MmrhlC0REYUMk1ww__',
     },
     {
       nombre: 'Song Title',
       info: 'Artist Name',
-      imagen: 'https://s3-alpha-sig.figma.com/img/ec0e/06e0/d10ab84cf050df7c759a381b2506bb89?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JgHm5lRk0TenJbCSozQ8OlPO67Mz2g8IMhrmxtFQ2WPwKEF1d6FQIPweB~MDeig7OeSJmNvNKEg8caBeRPDQ-IcgFsaThu9nh6YPAfeYuIKj6NCxn3w~w0JuIh5-13hLubLtAg6ZW5~mvrk8axZ12UWQpb8LR12aQHJC2ESlIonimJFp3ukrAyfLDwDTAp4owZ2ZrOkqGi0ViEzJaNGVSjFOqwzScq1Mag--cdS9-Ac~oLzwKr6VOq8ZumGTK6sQ-M-r1v88z8Zm83Qh2WHqyBLXECzO7jIfilkETqjbESVYs7lkrQ9O8Oek5ExCVvnvHWTAuv7IqgR9rj9PbXcThA__',
+      imagen: 'https://s3-alpha-sig.figma.com/img/ec0e/06e0/d10ab84cf050df7c759a381b2506bb89?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ve-g3opfN6ZIFzuboI8c9HtHDJsbHXOgIcmp1T0VASeVUO26pvBddbLaPpSl9yV-yx0XBG1Ak5iQWBqSuw-pLgtqRBOgaOoyFZ~Q3b4vxjN4GV~zRVANP05PssRqgA95U7~BiLBFMa33FFfT5QTyOZ~OEhf2JgmXJkJ70rtAxgRmmbO4M3M6nRQ1KSqJHv2aQBKL0n5w6ks7gE94fGx6ijcFI9~lvga99cAUnkvJyJrPK9ZjNjarwpOYxU80~qK7NmMNch-OYP-xLh0~Dk~y-ws-H5qz6klvP5Y38JypZDdQ3HeqlcOmz2eNldc6uXKHaT6ZPmioCI4fsIrMtjf53A__',
     },
     {
       nombre: 'Song Title',
       info: 'Artist Name',
-      imagen: 'https://s3-alpha-sig.figma.com/img/579b/eaee/3b02630be867dbdbd629e9d32572a9b5?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SEXeta-xBYRrUCycEXcBXMSsDk-IbWmXiCCRdu-zN0cgoFu9nwwVuZULJbVhBW8oHqDzAoZAlJDkn7dj4xOZdZuRZOWvh9dYFdzMMGxgC5M~o5YcaIXEk4iseNAWB1v0RP5T6lmoIBlStsH2lkq9XwnzREJJuUeeRfbQgSXu14hhEUzjO8x5gwCCJrVYKjc3zvAhX8lbNcdeYdXaALQ4r~lv-5sFDjDjwz2ispviOcBvzhtZSyeU65q642eqjh3f6zyjHzacyw0Cj9dMmedf2xqDRBIktPOqfesP96qjyaaXOA~3YLHM7MsSnQ0nZvbxMcSEKnanoGbsh7EblT6o-w__',
+      imagen: 'https://s3-alpha-sig.figma.com/img/579b/eaee/3b02630be867dbdbd629e9d32572a9b5?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oCYvIb7zWgTmzQ4fdNuOAr5CuAoSrHeyr60ii3pWCmvvlIc6AxZ7uMq9kxLoH8BRgBWVz92NTnXUzYinbo1Xk0cUvZGhLaE25CgMIi4reoWPwsTu1L30hTS0o9jpFB5JAPHRWC0Ckp3dHvwSLWpmz6JZZg1~0Cao3T3wnwgVYOwpa0x1EcZuIIdBU0tZBK33ubiQQiCxfSZfT0INlzaepuZTjbSB0BtW9VE5Pae2853DUQt2U6gFoPuaYAH~Pxgs6iYkrs6chr7VLjW2dsIlr6kWlMazNamQVip0eRdi3BdYc6TYco84S8vt5xPh~WsTmTcJv40I35wKEmbrzgZDCg__',
     },
 
   ];

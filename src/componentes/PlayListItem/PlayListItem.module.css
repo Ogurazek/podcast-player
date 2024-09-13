@@ -1,0 +1,37 @@
+.itemImage {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+
+.itemImage img {
+    width: 100%;
+    height: 100%;
+  }
+
+.itemContainer {
+    display: flex;
+    width: 196px;
+    height: 40px;
+    margin-bottom: 10px;
+    
+
+  }
+
+.itemContainer h4, p {
+    margin: 0;
+  }
+.itemContainer p {
+    color: #E8EAF6;
+  }
+
+
+.itemDetails {
+    width: 150px;
+    height: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+  }
