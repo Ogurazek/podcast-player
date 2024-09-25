@@ -25,13 +25,18 @@
 .containerNombre {
     width: 206px;
     height: 24px;
+    text-overflow: ellipsis;
+    overflow: hidden;
     display: flex;
+    white-space: nowrap;
     align-items: center;
     /* background-color: blueviolet;     */
 }
 
 .containerNombre h5 {
     margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .containerInfo {
     width: 206px;
@@ -43,6 +48,10 @@
 
 .containerInfo p {
     margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
 }
 
 .containerPortada img {
@@ -60,4 +69,5 @@
     gap: 16px;
     margin-bottom: 20px;
     flex-wrap: wrap;
+    
 }

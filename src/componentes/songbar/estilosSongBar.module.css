@@ -56,21 +56,32 @@
 }
 
 .containerBotonPlay {
-    width: 26px;
-    height: 24px;
-    /* background-color: #472c2c; */
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    margin: 3px;
+    width: 40px;
+    height: 30px;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;
+         
+    
+    
+
 }
 
-.containerBotonPlay a {
+.containerBotonPlay button {
     color: #FFFFFF;
     text-decoration: none;
     margin: 0;
+    padding: 0;             
+    width: 100%;           
+    height: 100%;          
+    background-color: transparent;
+    border: none;           
+    cursor: pointer;         
 }
-.containerBotonPlay a:hover {
+    
+    
+
+.containerBotonPlay button:hover {
     color: #615f5f;
 }
 
