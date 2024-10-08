@@ -52,10 +52,16 @@
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.containerPortada img:hover {
+  box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.6); /* Sombra interna en hover */
+  cursor: pointer;
 }
 
 .containerAlbum {
-    width: 1112px;
+  width: 1000px;
     height: 260px;
     /* background-color: red; */
     display: flex;

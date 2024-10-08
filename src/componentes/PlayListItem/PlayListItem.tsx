@@ -14,8 +14,8 @@ function ItemDetails({ titulo, descripcion, imagen }: ItemProps) {
                 <img src={imagen} alt={titulo} />
             </div>
             <div className={styles.itemDetails}>
-                <h4>{titulo}</h4>
-                <p>{descripcion}</p>
+                <strong>{titulo}</strong>
+                <span>{descripcion}</span>
             </div>
         </div>
     );

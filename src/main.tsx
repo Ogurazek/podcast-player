@@ -5,20 +5,22 @@ import Home from './componentes/index/inicio.tsx';
 import SongBar from './componentes/songbar/SongBar.tsx';
 import { useAudioPlayer } from './hooks/ApiHook'; 
 import './index.css';
+import { AudioPlayerProvider } from "./hooks/ApiHook.tsx";
 
 const App = () => {
-  const { audioClips, handlePlayClip, audioRefs, handleButtonPausePlay } = useAudioPlayer();
+  const { audioClips, handlePlayClip, audioRefs, playingClipId, currentClipId } = useAudioPlayer(); // Usamos currentClipId
 
   return (
     <>
       <Header />
       <Home 
-        audioClips={audioClips}
-        handlePlayClip={handlePlayClip}
+        audioClips={audioClips} 
+        handlePlayClip={handlePlayClip} 
         audioRefs={audioRefs}
       />
       <SongBar
-        handleButtonPausePlay={handleButtonPausePlay} 
+        
+        clipId={currentClipId} // Pasamos currentClipId a SongBar
         titulo="Can't Stop the Feeling!"
         subtitulo="Calvin Harris"
         tiempo="0:10 / 3:41"
@@ -30,6 +32,8 @@ const App = () => {
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <AudioPlayerProvider>
+      <App />
+    </AudioPlayerProvider>
   </StrictMode>
 );
