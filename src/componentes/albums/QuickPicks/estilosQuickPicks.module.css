@@ -1,13 +1,15 @@
 
 
 .containerInfoAlbum {
-    width: 254px;
+    width: 220px;
     height: 48px;
     /* background-color: aqua; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    text-overflow: ellipsis;
     justify-content: flex-start;
+    overflow: hidden;
 
     
     
@@ -61,7 +63,7 @@
 }
 
 .containerAlbum {
-    width: 1112px;
+    width: 1000px;
     height: 255px;
     /* background-color: red; */
     display: flex;

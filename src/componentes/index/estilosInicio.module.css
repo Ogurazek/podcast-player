@@ -15,13 +15,13 @@
 
 
 .containerSecundario {
-    width: 1112px;
+    width: 1000px;
     height: 1120px;
     
 }
 
 .bloques {
-    width: 1112px;
+    width: 1000px;
     height: 280px;
     
 }
@@ -29,9 +29,9 @@
 /* ------------------------------------------------------- */
 
 .containerListen {
-    width: 1112px;
+    width: 1000px;
     height: 65px;
-    /* background-color: aqua; */
+    border-bottom: 1px solid #474747;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -80,7 +80,7 @@
    
 }
 
-.subtitulo h6 {
+.subtitulo span {
     font-size: 12px;
     margin: 0;
     
@@ -93,7 +93,7 @@
     
 }
 
-.titulo h4{
+.titulo strong{
     font-size: 18px;
     margin: 0;
     
@@ -136,12 +136,15 @@
 
 .containerSideBar {
     width: 220px;
-    margin-top: 80px;
+    height: 100%;
+    background-color: black;
+    margin-top: 70px;
     position: fixed;
     justify-content: center;
     align-items: center;
     top: 0;
-    border-right: 2px solid #474747; /* Borde derecho gris */
+    border-right: 2px solid #474747; 
+    border-top: 1px solid #474747;
 }
 
 .caja {
@@ -177,7 +180,7 @@
     
 }
 
-.botonAcordion p {
+.botonAcordion span {
     margin: 0;
 }
 
@@ -205,17 +208,22 @@
 
 .containerPlay {
     width: 215px;
-    height: 275px;
+    height: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: auto;
+   
+   
     
 }
 
 .containerPlaylist {
     width: 186px;
-    height: 275px;
+    height: 100%;
+    
+   
+    
     
 
 }
@@ -223,6 +231,9 @@
 .containerCadaPlayList {
     width: 186px;
     height: 57px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
     
 }
 
@@ -239,14 +250,14 @@
 
 /* Estilos de la barra lateral (scrollbar) */
 
-body, .containerPlay { /* Aplica a body y a cualquier contenedor con overflow */
+body, .containerPlay { 
     --sb-track-color: #232E33;
     --sb-thumb-color: #5e6360;
     --sb-size: 5px;
   }
   
   body::-webkit-scrollbar,
-  .containerPlay::-webkit-scrollbar { /* Aplica a scrollbars en ambos casos */
+  .containerPlay::-webkit-scrollbar { 
     width: var(--sb-size);
   }
   

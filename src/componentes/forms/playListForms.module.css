@@ -1,10 +1,11 @@
 .containerForm {
     width: 100%;
+    height: 100vh;
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    
     
 
 
@@ -34,14 +35,21 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    gap: 10px;
 }
 
 
-.botonPlay {
+.botonPlay, .botonCancel {
     width: 150px;
     border-radius: 18px;
 }
 
+.botonPlay:hover {
+    border-color: #1a6614;
+}
+.botonCancel:hover {
+    border-color: #a00909;
+}
 
 /* ---------------------------------------------------- */
 /* Esto es parte de mostrar la foto, título y descrip en grande */
@@ -67,7 +75,7 @@
     border-radius: 5px;
 }
 
-.itemDetails h4, p {
+.itemDetails strong {
     margin: 0;
 }
 .itemDetails p {
