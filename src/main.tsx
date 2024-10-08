@@ -19,8 +19,6 @@ const App = () => {
         audioRefs={audioRefs}
       />
       <SongBar
-        
-       
       />
     </>
   );
