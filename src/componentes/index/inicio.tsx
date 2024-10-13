@@ -5,7 +5,7 @@ import QuickPicks from '../albums/QuickPicks/QuickPicks';
 import PlayListForm from '../forms/playListForms';
 import ItemDetails from '../PlayListItem/PlayListItem';
 import RecommendedAlbums from '../albums/AlbumsRecomendados/RecommendedAlbums';
-import { CircleArrowLeft, CircleArrowRight, Users, Compass, LibraryBig  } from 'lucide-react';
+import { CircleArrowLeft, CircleArrowRight, House, Compass, LibraryBig  } from 'lucide-react';
 import { useState } from 'react';
 
 
@@ -100,8 +100,8 @@ function SideBar({ SetShowForm, playList }: SideBarProps) {
         <div className={styles.menuAcordion}>
           <div className={styles.botonAcordion}>
             {/* en futuro cambiare esto */}
-            <a href=""><Users strokeWidth={1.5}/></a>
-            <span>Home</span>
+            <a href=""><House strokeWidth={1.5}/></a>
+            <span>Principal</span>
           </div>
           <div className={styles.botonAcordion}>
             {/* en futuro cambiare esto */}

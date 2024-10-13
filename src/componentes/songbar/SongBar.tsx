@@ -14,7 +14,7 @@ function SongBar() {
   }
 
   return (
-    <div className={`${styles.container} ${isSongBarOpen ? styles.containerOpen : ''}`}>
+    <section className={`${styles.container} ${isSongBarOpen ? styles.containerOpen : ''}`}>
       <div className={styles.progressContainer} onClick={handleProgressBarClick}>
         <div className={styles.progressBarBackground}></div>
         <div className={styles.progressBar} style={{ width: `${progressPercentage}%` }}></div>
@@ -40,7 +40,7 @@ function SongBar() {
 
         <div className={styles.containerMid}>
           <div className={styles.containerPortada}>
-            <img src={currentClip?.urls.image || "/imagen.jpg"} alt="Portada" />
+            <img src={currentClip?.urls.image || "/podcast-default.png"} alt="Portada" />
           </div>
           <div className={styles.containerInfoBar}>
             <div className={styles.containerSectionOne}>
@@ -79,7 +79,7 @@ function SongBar() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -31,10 +31,10 @@ function ListenAgain({ audioClips }: ListenAgainProps) {
           />
         </div>
         <header className={styles.containerNombre}>
-          <h5>{clip.title}</h5>
+          <strong>{clip.title}</strong>
         </header>
         <section className={styles.containerInfo}>
-          <p>{clip.description}</p>
+          <span>{clip.description}</span>
         </section>
       </article>
     ))}
