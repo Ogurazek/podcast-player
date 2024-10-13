@@ -36,6 +36,7 @@
     justify-content: space-between;
     padding: 0 48px;
     border-bottom: 1px solid #474747;  
+    
 
     
     
@@ -51,12 +52,28 @@
     padding: 4px;
     display: flex;
     align-items: center;
+    gap: 2px;
+    
 }
 
-.containerBuscador p {
-    color: #474646;
+.containerBuscador input {
     font-size: 16px;
     margin: 0;
+    border: none;
+    background-color:#282828;
+    text-decoration: none;
+    width: 380px;
+    height: 30px;
+    
+}
+
+input:focus {
+    outline: none;  
+    box-shadow: none; 
+}
+.containerIcono {
+    height: 27px;
+    width: 30px;
 }
 
 .containerPerfil {

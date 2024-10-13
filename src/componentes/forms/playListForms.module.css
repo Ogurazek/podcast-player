@@ -57,7 +57,8 @@
 .itemContainer {
     width: 200px;
     height: 250px;
-    
+    text-overflow: ellipsis;
+    overflow: hidden;
    
     
 }
@@ -75,11 +76,14 @@
     border-radius: 5px;
 }
 
-.itemDetails strong {
+.itemDetails h4 {
     margin: 0;
+    text-overflow: ellipsis;
 }
-.itemDetails p {
+.itemDetails span {
     color: #E8EAF6;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 

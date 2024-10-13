@@ -50,15 +50,17 @@
             <>
             <div className={styles.containerForm}>
                 <div className={styles.formPlayList}>
-                    <h2>Creá tu Playlist Fav</h2>
+                    <h2>Creá tu Playlist Fav ❤️</h2>
                     <form className={styles.formLabelInput} onSubmit={handleSubmit}>
                         <label htmlFor="titulo">Título</label>
                         <input
+                           
                             className={styles.inputPlay}
                             id="titulo"
                             type="text"
                             value={titulo }
                             onChange={handleChangeTitulo}
+                            maxLength={20}
                         />
                         <label htmlFor="descripcion">Descripción</label>
                         <input
@@ -67,6 +69,7 @@
                             type="text"
                             value={descripcion}
                             onChange={handleChangeDescripcion}
+                            maxLength={30}
                         />
                         <label htmlFor="imagen">Imagen URL</label>
                         <input
@@ -75,6 +78,7 @@
                             type="text"
                             value={imagen}
                             onChange={handleChangeImagen}
+                            
                         />
                         <div className={styles.botonContainer}>
                             <button className={styles.botonPlay} type="submit">
@@ -105,11 +109,11 @@
     return (
         <div className={styles.itemContainer}>
             <div className={styles.itemImage}>
-                <img src={imagen || "/imagen.jpg"} alt="Imagen de la Playlist" />
+                <img src={imagen || "/podcast-default.png"} alt="Imagen de la Playlist" />
             </div>
             <div className={styles.itemDetails}>
                 <h4>{titulo || "Sin título"}</h4>
-                <p>{descripcion || "Sin descripción"}</p>
+                <span>{descripcion || "Sin descripción"}</span>
             </div>
         </div>
     );
